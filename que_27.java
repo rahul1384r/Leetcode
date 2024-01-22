@@ -1,13 +1,10 @@
 public class que_27 {
     public static void main(String[] args) {
-        int[] arr={1,2,2,3,3};
+        int[] arr={2,2,2,3};
         int target=2;
-        for(int i=0;i<arr.length;i++){
-            for(int j=i+1;j<arr.length;j++){
-                if(arr[i]==arr[j]){
-                    System.out.println(arr[i]);
-                }        
-            }
+        for(int i=1;i<arr.length;i++){
+            arr[0]^=arr[i];
         }
+        System.out.println(arr[0]);
     }
 }
