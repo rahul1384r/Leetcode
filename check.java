@@ -6,7 +6,7 @@ public class check {
             for(int j=i+1;j<arr.length;j++){
                 for(int k=i;k<j;k++){
                     System.out.println();
-                }
+                }que_1
             }
         }
         
