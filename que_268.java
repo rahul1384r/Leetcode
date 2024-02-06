@@ -1,17 +1,17 @@
+import java.util.*;
 public class que_268 {
     public static void main(String[] args) {
-        int arr[]={1,2,3,4,7};
-        int length=arr.length;
-        for(int i=0;i<length;i++){
-            for(int j=i+1;j<length;j++){
-                if(arr[j]-arr[i]==1){
-                    break;
-                }
-                else{
-                    System.out.println(arr[j]-1);
-                }
+        int arr[]={9,6,4,2,3,5,7,0,1};
+        Arrays.sort(arr);
+        int n=arr.length;
+        for(int i=0;i<n;i++){
+            // System.out.print(arr[i]);
+            if(i==arr[i]){
+                continue;
+            }
+            else{
+                System.out.println(i);
             }
         }
-        
     }
 }
