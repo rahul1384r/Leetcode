@@ -5,7 +5,7 @@ public class Main{
 		String sub="issip";
 		for(int i=0;i<str.length();i++){
 			for(int j=0;j<sub.length();j++){
-				if(){
+				if(sub.charAt(i)==){
 					System.out.println(i);
 				}
 			}
