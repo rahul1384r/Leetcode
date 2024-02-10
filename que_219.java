@@ -6,7 +6,7 @@ public class que_219 {
         Scanner sc=new Scanner(System.in);
         int k=sc.nextInt();
         for(int i=0;i<arr.length;i++){
-            for(int j=0;j<arr.length;j++){
+            for(int j=1;j<arr.length;j++){
                 if(arr[i]==arr[j] && Math.abs(i-j)<=k){
                     System.out.println("true");
                 }
