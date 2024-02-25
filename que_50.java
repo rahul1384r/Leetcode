@@ -16,7 +16,7 @@ public class que_50 {
             fnm1=n*power(n,pow+1);
             
         }
-        return 1/fnm1;
+        return fnm1;
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -24,5 +24,6 @@ public class que_50 {
         int pow=sc.nextInt();
         float res=1/power(n, pow);
         System.out.println(res);
+        System.out.println(Math.floor(2/2));
     }
 }
