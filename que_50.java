@@ -1,6 +1,16 @@
 import java.util.Scanner;
 
 public class que_50 {
+    
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int pow=sc.nextInt();
+
+        float res=1/power(n, pow);
+        System.out.println(res);
+        System.out.println(Math.floor(2/2));
+    }
     public static float power(int n,int pow){
         if(pow==0){
             return 1;
@@ -17,13 +27,5 @@ public class que_50 {
             
         }
         return fnm1;
-    }
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        int pow=sc.nextInt();
-        float res=1/power(n, pow);
-        System.out.println(res);
-        System.out.println(Math.floor(2/2));
     }
 }
